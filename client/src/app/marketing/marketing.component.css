@@ -1,0 +1,75 @@
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+.marketing #technologies {
+  color: white;/* height: 100px; */
+  /* background-color: red; */
+  background-image:
+    linear-gradient(
+      to bottom right,
+      darkslategray, #88a6af 95%
+    );
+    padding-top: 4rem;
+    margin-bottom: 3rem;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  /* .marketing .col-lg-4 i {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  } */
+  .marketing .col-lg-4 p {
+    margin-left: 8.5rem;
+    text-align: left;
+    font-size: 1.5em;
+    margin-bottom: 0;
+  }
+  .marketing #spacer {
+    margin-left: 10.5rem;
+  }
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    /* margin-top: 0rem; */
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+  .featurette-subheading {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+  
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  /* @media (min-width: 40em) {
+    .featurette-heading {
+      font-size: 50px;
+    }
+    .featurette-subheading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+   */

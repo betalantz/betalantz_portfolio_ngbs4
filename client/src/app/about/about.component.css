@@ -1,0 +1,53 @@
+
+  /* About section
+  ------------------------- */
+  
+  .row {
+    background-color: darkslategray;
+    color: white;
+    margin-top: 3rem;
+    padding-right: 3rem; 
+    padding-bottom: 2rem;
+  }
+  footer {
+      padding-top: 1rem;
+  }
+  
+  /* Thin out the marketing headings */
+  .about-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+  .about-subheading {
+    color: darkorange;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+  
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    .about-heading {
+      font-size: 50px;
+    }
+    .about-subheading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .about-heading {
+      margin-top: 3rem;
+    }
+  }
+  /* .about-heading {
+      font-size: 50px;
+      margin-top: 7rem;
+  }
+  .about-subheading{
+      font-size: 50px;
+  } */
